@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Johnny Bravo</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Johnny Bravo Jokes</h1>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH8RCvbQkWMtdTnezx41hU3YmWfTsisIWScw&usqp=CAU"
+        alt="Jonny Cartoon"
+        id="jonnyImg"
+      />
+
+      <form id="jokeForm">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" placeholder="Johnny" />
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" placeholder="Bravo" />
+
+        <button type="submit" id="jokeBtn">Get Joke!</button>
+      </form>
+
+      <p id="jokeText"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+body {
+  font-family: "Rakkas", cursive;
+}
+
+.container {
+  padding: 40px;
+  max-width: 100vw;
+  margin: 0, auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#jonnyImg {
+  height: 190px;
+  width: 190px;
+  margin-bottom: 40px;
+}
+
+#jokeText {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#jokeForm {
+  font-size: 20px;
+}
